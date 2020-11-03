@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://i.imgur.com/LxpUkEa.png">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Yahtzee</title>
+</head>
+<body>
+
+<div class="score">
+<table>
+    <tr>
+        <th><b>Section supérieure</b></th>
+        <th>Jeu 1</th>
+    </tr>
+    <tr>
+        <td>Total des <b>as</b></td>
+            <td class="section_superieure score_a_selectionner"></td>
+    </tr>
+    <tr>
+        <td>Total des <b>deux</b></td>
+        <td  class="section_superieure score_a_selectionner"></td>
+    </tr>
+    <tr>
+        <td>Total des <b>trois</b></td>
+        <td class="section_superieure score_a_selectionner"></td>
+    </tr>
+    <tr>
+        <td>Total des <b>quatre</b></td>
+        <td  class="section_superieure score_a_selectionner"></td>
+    </tr>
+    <tr>
+        <td>Total des <b>cinq</b></td>
+        <td  class="section_superieure score_a_selectionner"></td>
+    </tr>
+    <tr>
+        <td>Total des <b>six</b></td>
+        <td class="section_superieure score_a_selectionner"></td>
+    </tr>
+    <tr>
+        <td><b>Total</b></td>
+        <td id="total"></td>
+    </tr>
+    <tr>
+        <td><b>63 + Prime des 35 points</b></td>
+        <td id="prime63"></td>
+    </tr>
+    <tr>
+        <td><b>Total de la section supérieure</b></td>
+        <td id="total_superieure"></td>
+    </tr>
+</table>
+    <table >
+        <tr>
+            <th><b>Section inférieure</b></th>
+            <th>Jeu 1</th>
+        </tr>
+        <tr>
+            <td><p>Brelan</p><p><b>Total des 5 dés</b></p></td>
+            <td class="score_a_selectionner  section_inferieure"></td>
+        </tr>
+        <tr>
+            <td><p>Carré</p><p><b>Total des 5 dés</b></p></td>
+            <td class="score_a_selectionner , section_inferieure"></td>
+        </tr>
+        <tr>
+            <td><p>Full</p><p><b>25 points</b></p></td>
+            <td class="score_a_selectionner  section_inferieure"></td>
+        </tr>
+        <tr>
+            <td><p>Petite suite</p><p><b>30 points</b></p></td>
+            <td class="score_a_selectionner  section_inferieure"></td>
+        </tr>
+        <tr>
+            <td><p>Grande suite</p><p><b>40 points</b></p></td>
+            <td class="score_a_selectionner  section_inferieure"></td>
+        </tr>
+        <tr>
+            <td><p><b>Yahtzee</b></p><p><b>50 points</b></p></td>
+            <td class="score_a_selectionner section_inferieure"></td>
+        </tr>
+        <tr>
+            <td><p>Chance</p><p><b>Total des 5 dés</b></p></td>
+            <td class="score_a_selectionner section_inferieure"></td>
+        </tr>
+        <tr>
+            <td><p><b>Prime Yahtzee</b></p><p><b>100 points</b></p></td>
+            <td id="yahtze"></td>
+        </tr>
+        <tr>
+            <td><p><b>Total de la section inférieure</b></p></td>
+            <td id="total_inferieure"></td>
+        </tr>
+    </table>
+
+</div>
+<input class="bouton" id="lancer_des" type="submit" value="lancer les dés">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
